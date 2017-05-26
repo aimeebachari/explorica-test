@@ -12,6 +12,7 @@ def stringlength()
     @max = array.max(num).join("").length
   end
 end
+
 stringlength()
 
 puts "Minimum:" + " #{@min}"

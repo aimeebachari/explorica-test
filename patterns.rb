@@ -9,7 +9,7 @@ def upsidedown(rows, t = 0)
   r = rows
   while rows > 0
     if rows != r
-      print ' ' *( t +1)
+      print ' ' *( t + 1)
       puts '*'* (rows * 2 - 1)
     end
   rows -= 1
